@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -Print all single digit numbers starting from 0
- * 
+ *
  * Description: using the main function
  * this program prints "Print all single digit numbers starting from 0
  * Return: 0
