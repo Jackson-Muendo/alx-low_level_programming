@@ -8,7 +8,7 @@
  * main -print if number is greater than 5,is 0,is less than 6 and not 0
  *
  * Description: using main function
- * the program prints "Programming is greater than 5,0 or less than 6 and not 0
+ * this program prints "prints the last digit store in n
  * Return: 0
  */
 
@@ -29,7 +29,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
-	else if (l < 6; l != 0)
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
