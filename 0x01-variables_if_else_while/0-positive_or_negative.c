@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * more headers goes there
- *
- * betty style doc for function main goes there
+/* more headers goes there */
+/**
+ * main - print if the number is postive, zero, or negative
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -20,7 +24,7 @@ int main(void)
 	{
 		printf("%i The number is zero\n");
 	}
-	else(n < 0)
+	else if (n < 0)
 
 	{
 		printf("%i The number is negative\n");
