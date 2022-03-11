@@ -1,7 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /* more headers goes there */
+
 /**
  * main - print if the number is postive, zero, or negative
  * Description: using the main function
@@ -18,16 +20,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%i The number is positive\n");
+		printf("%i The number is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%i The number is zero\n");
+		printf("%i The number is zero\n", n);
 	}
 	else if (n < 0)
 
 	{
-		printf("%i The number is negative\n");
+		printf("%i The number is negative\n", n);
 	}
 		return (0);
 }
