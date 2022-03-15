@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  * prints "_putchar" followed by a new line
- * the program prints "_putchar
- * Return: 0
+ * the program prints "_putchar followed by a new line
  */
 
 
@@ -13,17 +12,17 @@ int main(void)
 
 {
 
-	char ch = "_putchar";
+	char ch[] = "_putchar";
 
 	int i = 0;
 
 
 
-	while (ch != '\0')
+	while (ch[i] != '\0')
 
 	{
 
-		_putchar(ch);
+		_putchar(ch[i]);
 
 		i++;
 
