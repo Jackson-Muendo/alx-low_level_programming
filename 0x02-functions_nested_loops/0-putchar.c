@@ -2,33 +2,42 @@
 
 /**
 
- * main - Entry point
+ * print_alphabet - print alphabet a-z afer looping
 
- * prints "Holberton" followed by a new line
+ *
 
  * Return: 0
 
  */
 
-int main(void)
+
+
+void print_alphabet(void)
 
 {
 
-	char school[] = "_putchar";
 
-	int i = 0;
 
-	while (school[i] != '\0')
+	char i;
+
+
+
+	i = 'a';
+
+
+
+	while (i <= 'z')
 
 	{
 
-		_putchar(school[i]);
+		_putchar(i);
 
 		i++;
 
 	}
 
 	_putchar('\n');
-	return (0);
+
+
 
 }
