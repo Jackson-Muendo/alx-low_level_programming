@@ -3,6 +3,7 @@
 /**
  * _islower - checks for lowercase character
  *
+ * @c : character parameter
  * Description: main header
  * the program prints - "checks for lowercase character
  * Return: 0 or 1
