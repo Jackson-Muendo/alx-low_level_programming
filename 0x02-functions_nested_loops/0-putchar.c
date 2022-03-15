@@ -10,8 +10,6 @@
 
  */
 
-
-
 int main(void)
 
 {
@@ -19,8 +17,6 @@ int main(void)
 	char school[] = "_putchar";
 
 	int i = 0;
-
-
 
 	while (school[i] != '\0')
 
@@ -33,9 +29,6 @@ int main(void)
 	}
 
 	_putchar('\n');
-
-
-
 	return (0);
 
 }
