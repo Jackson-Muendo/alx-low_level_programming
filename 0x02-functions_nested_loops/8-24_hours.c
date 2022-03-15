@@ -3,6 +3,9 @@
 /**
  * jack_bauer - Prints every minutes of the day of Jack Bauer
  * description: Starting from 00:00 to 23:59
+ *
+ * the program -"Prints every minutes of the day of Jack Bauer
+ * Return: on succes 1
  */
 
 void jack_bauer(void)
