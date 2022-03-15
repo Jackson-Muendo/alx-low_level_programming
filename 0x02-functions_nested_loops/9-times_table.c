@@ -4,7 +4,6 @@
  * times_table - Print the 9 times table, starting from 0
  *
  * the program - "times_table - Print the 9 times table, starting from 0
- * Return: 0
  */
 
  
