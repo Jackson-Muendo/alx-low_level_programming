@@ -4,6 +4,7 @@
  * main - Entry point
  * prints "_putchar" followed by a new line
  * the program prints "_putchar followed by a new line
+ * Return: 0
  */
 
 
