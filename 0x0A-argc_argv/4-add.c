@@ -1,7 +1,5 @@
 #include <stdio.h>
-> '9' || argv[i][j] < '0')
-			{
-				printf("Error\#include <stdlib.h>
+#include <stdlib.h>
 /**
  * main - entry point
  * @argc: number of arguments
@@ -18,7 +16,9 @@ int main(int argc, char **argv)
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
-			if (argv[i][j] n");
+			if (argv[i][j] > '9' || argv[i][j] < '0')
+			{
+				printf("Error\n");
 				return (1);
 			}
 		}
