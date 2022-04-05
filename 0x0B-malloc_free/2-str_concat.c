@@ -2,42 +2,39 @@
 #include <stdlib.h>
 
 /**
- * str_concat - concatenates two strings.
- * @s1: first string.
- * @s2: second string.
- *
- * Return: pointer of an array of chars
+ * str_concat - concat 2 string
+ * @s1:string1
+ * @s2:string2
+ * Return:char
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *strout;
-	unsigned int i, j, k, limit;
+	unsigned int i, j, k, l;
+	char *s;
 
 	if (s1 == NULL)
-		s1 = "";
-	if (; i++)
-		;
-
-	for (j = 0; s2[j] != '\0'; j++)
-		;
-
-s2 == NULL)
-		s2 = "";
-
-	for (i = 0; s1[i] != '\0'	strout = malloc(sizeof(char) * (i + j + 1));
-
-	if (strout == NULL)
+		i = 0;
+	else
 	{
-		free(strout);
-		return (NULL);
+		for (i = 0; s1[i]; i++)
+			;
 	}
+	if (s2 == NULL)
+		j = 0;
+	else
+	{
+		for (j = 0; s2[j]; j++)
+			;
+	}
+	k = i + j + 1;
+	s = malloc(k * sizeof(char));
 
-	for (k = 0; k < i; k++)
-		strout[k] = s1[k];
-
-	limit = j;
-	for (j = 0; j <= limit; k++, j++)
-		strout[k] = s2[j];
-
-	return (strout);
+	if (s == NULL)
+		return (NULL);
+	for (l = 0; l < i; l++)
+		s[l] = s1[l];
+	for (l = 0; l < j; l++)
+		s[l + i] = s2[l];
+	s[i + j] = '\0';
+	return (s);
 }
