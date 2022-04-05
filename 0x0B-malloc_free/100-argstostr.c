@@ -25,12 +25,12 @@ char *argstostr(int ac, char **av)
 	}
 	s = malloc(sizeof(char) * l + 1);
 	if (s == NULL)
-	 (y = 0; av[x][y] != '\0'; y++)
-		{
-			s[a] = av[xreturn (NULL);
+	return (NULL);
 	for (x = 0; x < ac ; x++)
 	{
-		for][y];
+		for (y = 0; av[x][y] != '\0'; y++)
+		{
+			s[a] = av[x][y];
 			a++;
 		}
 		s[a++] = '\n';
