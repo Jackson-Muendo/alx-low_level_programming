@@ -18,9 +18,10 @@ int i, j;
 
         if (argc != 3)
 
-        { printf("Error\n");
-
-        exit(98); }
+        {
+	       	printf("Error\n");
+		exit(98); 
+	}
 
         for (i = 1; i < argc; i++)
 
@@ -32,9 +33,9 @@ int i, j;
 
                         if (argv[i][j] > 9 || argv[i][j] < 0)
 
-                        {  printf("Error\n");
-
-                        exit(98); }
+                        { 
+			       	printf("Error\n");
+				exit(98); }
 
                 }
 
