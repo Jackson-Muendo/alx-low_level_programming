@@ -9,9 +9,7 @@
  *
  * Return: no return.
  */
-
 void _is_zero(char *argv[])
-
 {
 	int i, isn1 = 1, isn2 = 1;
 
@@ -23,9 +21,9 @@ void _is_zero(char *argv[])
 		}
 
 	for (i = 0; argv[2][i]; i++)
-		f (argv[2][i] != '0')
-
-		{			isn2 = 0;
+		if (argv[2][i] != '0')
+		{
+			isn2 = 0;
 			break;
 		}
 
@@ -33,7 +31,6 @@ void _is_zero(char *argv[])
 	{
 		printf("0\n");
 		exit(0);
-
 	}
 }
 
